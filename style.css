@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > a{
+    color: rgb(45, 73, 4);
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home{
+    margin-left: 600px;
+}
+
+nav > a:hover{
+    background-color:rgb(33, 53, 2);
+    color: white;
+    border-radius: 4px;
+    padding:4px 10px;
+    transition-duration: 0.3s;
+}
+
+header{
+    padding-bottom: 5px;
+}
+
+.txtmain{
+    color: white;
+    font-size: 40px;
+    padding-left: 170px;
+    padding-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+main{
+ 
+}
+
+#divBusca{
+    background-color:#ffffff;
+    border:solid 2px #193a04;
+    border-radius:8px;
+    width:195px;
+    height:32px;
+    padding: 3px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  .pesquisa{
+    padding-left: 1100px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 260px;
+  }
+
+  .banner-e-txt{
+    background-image: url('midia/bannermain.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 70%;
+  }
+
+  #btnBusca{
+    color: white;
+    border:none;
+    float: left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#042c04;
+
+  }
+ 
