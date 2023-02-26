@@ -6,12 +6,6 @@
     
 }
 
-body{
-  min-height: 100vh;
-  min-width: 100vw;
-
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -56,7 +50,7 @@ main{
     background-color:#ffffff;
     border:solid 2px #193a04;
     border-radius:8px;
-    width:210px;
+    width:214px;
     height:37px;
     
   }
@@ -75,7 +69,7 @@ main{
     padding-left: 1100px;
     padding-bottom: 0px;
     position: relative;
-    bottom: 270px;
+    bottom: 300px;
   }
 
   .banner-e-txt{
@@ -96,6 +90,12 @@ main{
     width:70px;
     font-weight:bold;
     background-color:#022002;
-
   }
+
+ .imagens{
+    padding-left: 230px;
+ }
  
+ .txtimagens{
+    font-size: 22px;
+ }
