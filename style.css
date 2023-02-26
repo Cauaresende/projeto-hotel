@@ -6,21 +6,23 @@
     
 }
 
+body{
+  min-height: 100vh;
+  min-width: 100vw;
+
+}
+
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 nav > a{
     color: rgb(45, 73, 4);
     text-decoration: none;
-    font-size: 28px;
+    font-size: 2.2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.home{
-    margin-left: 600px;
 }
 
 nav > a:hover{
@@ -37,7 +39,7 @@ header{
 
 .txtmain{
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     padding-left: 170px;
     padding-top: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
