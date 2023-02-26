@@ -45,7 +45,7 @@ main{
     width: 100%;
 }
 
-#divBusca{
+.divBusca{
     background-color:#ffffff;
     border:solid 2px #193a04;
     border-radius:8px;
@@ -54,7 +54,7 @@ main{
     
   }
   
-  #txtBusca{
+  .txtBusca{
     float:left;
     background-color:transparent;
     font-size:18px;
@@ -80,7 +80,7 @@ main{
     opacity: 70%;
   }
 
-  #btnBusca{
+  .btnBusca{
     color: white;
     border:none;
     float: left;
@@ -90,10 +90,6 @@ main{
     font-weight:bold;
     background-color:#022002;
   }
-
- .imagens{
-    padding-left: 180px;
- }
  
  .imgmeio{
     margin-left: 67px;
@@ -108,5 +104,5 @@ main{
     justify-content: space-evenly;
     position: relative;
     bottom: 55px;
-    padding-left: 56px;
+    padding-left: px;
  }

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cabeçalho img{
+    height: 7vw;
+    width: 7vw;
+}
+
+.infoCabecalho{
+   margin: 0px 25px;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(45, 73, 4);
+    text-decoration: none;
+    font-size: 2.3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header a:hover{
+    background-color:rgb(45, 73, 4);
+    color: white;
+    border-radius: 6px;
+    padding:4px 10px;
+    transition-duration: 0.3s;
+}
+
+.banner-e-txt{
+    background-image: url('midia/bannermain.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 70%;
+    width: 100%;
+    
+  }
+
