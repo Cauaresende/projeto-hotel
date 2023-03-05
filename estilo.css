@@ -9,7 +9,7 @@ header{
     color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -58,7 +58,7 @@ header a:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     margin-top: 8.5vw;
-    margin-bottom: 10vw;
+    margin-bottom: 11vw;
  }
 
 .txtBusca{
@@ -82,12 +82,30 @@ header a:hover{
 }
 
 .imgmain{
-    width: 24vw;
-    height: 24vw;
+    width: 26vw;
+    height: 26vw;
 }
 
 .secaoImagens{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.pImagens{
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 2vw;
+}
+
+footer{
+    background-color: rgb(4, 56, 4);
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 0.8vw;
+    margin-top: 3.8vw;
 }
