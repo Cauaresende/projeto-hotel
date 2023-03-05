@@ -113,7 +113,7 @@ footer{
 @media (max-width:772px) {
   
      header a{
-        font-size: 2vh;
+        font-size: 1.5vh;
      }
 
      header {
@@ -128,7 +128,7 @@ footer{
     }
 
     .pesquisa{
-        margin-bottom: 50px;
+        margin-bottom: 70px;
         padding-top: 2.6vh;
         padding-left: 1.5vh;
         padding-right: 1.5vh;
@@ -141,11 +141,16 @@ footer{
     }
 
     .pImagens{
-        font-size: 1.8vh;
+        font-size: 1.2vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         position: relative;
         bottom: 2vw;
+        margin: 0px 20px;
+    }
+
+    footer {
+        font-size: 1.9vh;
     }
 }
 
