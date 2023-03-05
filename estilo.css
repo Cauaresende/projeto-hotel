@@ -201,12 +201,12 @@ footer{
     }
 
     .imgmain{
-        width: 140px;
-        height: 140px;
+        width: 130px;
+        height: 130px;
     }
 
     .pImagens{
-        font-size: 1.3vh;
+        font-size: 1.1vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         position: relative;
