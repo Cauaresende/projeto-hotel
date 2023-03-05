@@ -113,7 +113,7 @@ footer{
 @media (max-width:772px) {
   
      header a{
-        font-size: 1.5vh;
+        font-size: 1.4vh;
      }
 
      header {
@@ -121,10 +121,18 @@ footer{
         margin-top: 10px;
      }
 
+     .txtBusca{
+        font-size: 0.9vh;
+     }
+
     .banner-e-txt {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .txtmain{
+        font-size: 2.5vh;
     }
 
     .pesquisa{
@@ -141,7 +149,7 @@ footer{
     }
 
     .pImagens{
-        font-size: 1.2vh;
+        font-size: 1.3vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         position: relative;
