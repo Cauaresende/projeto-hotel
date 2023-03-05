@@ -44,7 +44,7 @@ header a:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
     opacity: 70%;
     width: 100%;
     display: flex;
