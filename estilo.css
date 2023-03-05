@@ -9,7 +9,7 @@ header{
     color: black;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -108,5 +108,44 @@ footer{
     text-align: center;
     padding: 0.8vw;
     margin-top: 3.8vw;
+}
+
+@media (max-width:772px) {
+  
+     header a{
+        font-size: 2vh;
+     }
+
+     header {
+        margin-bottom: 5px;
+        margin-top: 5px;
+     }
+
+    .banner-e-txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pesquisa{
+        margin-bottom: 50px;
+        padding-top: 2.6vh;
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;
+        padding-bottom: 1vh;
+    }
+
+    .imgmain{
+        width: 150px;
+        height: 150px;
+    }
+
+    .pImagens{
+        font-size: 1.8vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 2vw;
+    }
 }
 
