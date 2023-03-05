@@ -123,6 +123,7 @@ footer{
 
      .txtBusca{
         font-size: 0.9vh;
+        margin-top: 20px;
      }
 
     .banner-e-txt {
@@ -137,15 +138,15 @@ footer{
 
     .pesquisa{
         margin-bottom: 70px;
-        padding-top: 2.6vh;
+        padding-top: 1vh;
         padding-left: 1.5vh;
         padding-right: 1.5vh;
-        padding-bottom: 1vh;
+        padding-bottom: 1.5vh;
     }
 
     .imgmain{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .pImagens{
@@ -159,6 +160,7 @@ footer{
 
     footer {
         font-size: 1.9vh;
+        padding-bottom: 20px;
     }
 }
 
