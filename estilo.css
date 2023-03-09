@@ -168,7 +168,7 @@ footer{
 
 @media (max-width: 600px) {
     header a{
-        font-size: 3.5vw;
+        font-size: 1.6vh;
         padding: 2px 7px;
      }
 
