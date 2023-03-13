@@ -168,7 +168,7 @@ footer{
 
 @media (max-width: 600px) {
     header a{
-        font-size: 1.2vh;
+        font-size: 1.1vh;
         
      }
 
@@ -201,7 +201,7 @@ footer{
     }
 
     .pImagens{
-        font-size: 1.05vh;
+        font-size: 1.1vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         position: relative;
